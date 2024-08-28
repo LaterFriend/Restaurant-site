@@ -1,0 +1,33 @@
+.container {
+    .burgerMenuButton {
+        cursor: pointer;
+        border: none;
+        background-color: transparent;
+    }
+
+    .navBarClosed {
+        left: -25vw;
+    }
+    .navBarOpen {
+        left: 0;
+    }
+
+    nav {
+        top: 0;
+        color: black;
+        background-color: var(--dark-grey-color);
+        position: fixed;
+        width: 25vw;
+        height: 50vh;
+        transition: left ease-in-out 0.3s; 
+    }
+    .crossButton{
+        cursor: pointer;
+        border: none;
+        background-color: transparent;
+
+        img {
+            width: 1.5vw;
+        }
+    }
+}
